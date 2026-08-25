@@ -11,9 +11,9 @@ A structured **24-week journey** focused on improving:
 
 The goal of this repository is **not to collect hundreds of Accepted submissions**.
 
-The goal is to become better at:
+The goal is to improve the complete problem-solving process:
 
-> understanding constraints → finding observations → choosing the right algorithm → implementing cleanly → analyzing complexity → learning from mistakes
+> Understand constraints → find observations → choose the right approach → implement cleanly → analyze complexity → learn from mistakes → revisit weak problems.
 
 ---
 
@@ -26,26 +26,32 @@ The goal is to become better at:
 
 ## The Plan
 
-I am following a structured **24-week DSA + Competitive Programming roadmap**.
+I am following a structured **24-week DSA + Competitive Programming roadmap** containing approximately **230–250 carefully selected problems**.
 
-The roadmap contains approximately **230–250 carefully selected problems**, instead of randomly solving thousands of questions.
+The focus is on **quality over quantity**.
 
-### Weekly System
+I do not randomly solve hundreds of similar questions or continuously switch between different sheets.
 
-**Monday – Friday**
+---
+
+## Weekly System
+
+### Monday – Friday
 
 * 2 quality problems per day
-* Concept learning
+* Short concept study when required
 * Independent problem solving
-* Complexity analysis
+* Dry runs and edge-case analysis
+* Time and space complexity analysis
 * Mistake tracking
 
-**Saturday**
+### Saturday
 
-* Codeforces / AtCoder / LeetCode contest
+* Codeforces / AtCoder contest or virtual contest
+* Timed problem solving
 * Focus on speed, accuracy and independent thinking
 
-**Sunday**
+### Sunday
 
 * Contest upsolving
 * Re-solving previous mistakes
@@ -54,9 +60,9 @@ The roadmap contains approximately **230–250 carefully selected problems**, in
 
 ---
 
-## Roadmap
+# 24-Week Roadmap
 
-### Phase 1 — Problem Solving Foundations
+## Phase 1 — Problem-Solving Foundations
 
 * Complexity Analysis
 * Sorting
@@ -66,7 +72,7 @@ The roadmap contains approximately **230–250 carefully selected problems**, in
 * Two Pointers
 * Sliding Window
 
-### Phase 2 — Core DSA Patterns
+## Phase 2 — Core DSA Patterns
 
 * Binary Search
 * Binary Search on Answer
@@ -79,7 +85,7 @@ The roadmap contains approximately **230–250 carefully selected problems**, in
 * Backtracking
 * Bit Manipulation
 
-### Phase 3 — Trees & Graphs
+## Phase 3 — Trees & Graphs
 
 * Binary Trees
 * Tree DFS / BFS
@@ -96,7 +102,7 @@ The roadmap contains approximately **230–250 carefully selected problems**, in
 * Minimum Spanning Tree
 * Shortest Paths
 
-### Phase 4 — Dynamic Programming
+## Phase 4 — Dynamic Programming
 
 * DP Fundamentals
 * 1D DP
@@ -111,7 +117,7 @@ The roadmap contains approximately **230–250 carefully selected problems**, in
 * Tree DP
 * Interval DP
 
-### Phase 5 — Competitive Programming Techniques
+## Phase 5 — Competitive Programming Techniques
 
 * Number Theory
 * GCD / LCM
@@ -126,35 +132,33 @@ The roadmap contains approximately **230–250 carefully selected problems**, in
 * Trie
 * Binary Lifting
 
-### Phase 6 — Mixed Problem Solving
+## Phase 6 — Mixed Problem Solving
 
 * Mixed Codeforces Problems
 * Interview-style DSA
-* Timed problem solving
+* Timed Problem Solving
 * Contests
 * Upsolving
-* Weak-area repair
+* Weak-area Repair
 * Revision
 
 ---
 
-## Problem Sources
+# Problem Sources
 
 I intentionally use a small number of high-quality platforms:
 
-* **Codeforces** — competitive programming and problem-solving
-* **CSES** — algorithm fundamentals
-* **LeetCode** — interview-oriented DSA
-* **AtCoder** — clean algorithmic and DP problems
-
-I do not randomly switch between dozens of sheets or websites.
+* **Codeforces** — Competitive programming and problem-solving
+* **CSES** — Algorithm fundamentals
+* **LeetCode** — Interview-oriented DSA
+* **AtCoder** — Algorithmic thinking and Dynamic Programming
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
-dsa-cp-journey/
+dsa-cp-practice/
 │
 ├── README.md
 │
@@ -165,6 +169,10 @@ dsa-cp-journey/
 │   │   └── README.md
 │   │
 │   ├── day-02/
+│   │   ├── helpful_maths.py
+│   │   ├── queue_at_the_school.py
+│   │   └── README.md
+│   │
 │   └── ...
 │
 ├── week-02/
@@ -178,7 +186,21 @@ dsa-cp-journey/
 
 ---
 
-# Progress
+# Current Progress
+
+**Current Week:** Week 01
+**Current Focus:** Implementation, Sorting & Complexity
+
+**Problems Completed:** 4
+
+| Day    | Problems                           | Status |
+| ------ | ---------------------------------- | ------ |
+| Day 01 | Beautiful Matrix, Theatre Square   | ✅      |
+| Day 02 | Helpful Maths, Queue at the School | ✅      |
+
+---
+
+# Weekly Progress
 
 | Week    | Main Focus                           | Status         |
 | ------- | ------------------------------------ | -------------- |
@@ -209,34 +231,9 @@ dsa-cp-journey/
 
 ---
 
-# Day 01
+# Problem-Solving Process
 
-### Topic
-
-**Implementation + Basic Mathematical Thinking**
-
-### Problems
-
-| Problem          | Platform   | Status |
-| ---------------- | ---------- | ------ |
-| Beautiful Matrix | Codeforces | ✅      |
-| Theatre Square   | Codeforces | ✅      |
-
-### What I Learned
-
-* Traversing a 2D matrix
-* Breaking nested search efficiently
-* Calculating row and column distance
-* Using `abs()`
-* Converting a problem statement into a mathematical formula
-* Ceiling division
-* Thinking about time and space complexity instead of only getting Accepted
-
----
-
-## My Problem-Solving Process
-
-For every problem I try to follow:
+For every problem:
 
 ```text
 Understand the problem
@@ -245,9 +242,9 @@ Read constraints
         ↓
 Think of brute force
         ↓
-Find repeated / unnecessary work
+Identify repeated work
         ↓
-Look for an observation
+Find observations
         ↓
 Choose algorithm / data structure
         ↓
@@ -257,110 +254,148 @@ Implement
         ↓
 Test edge cases
         ↓
-Analyze complexity
+Analyze time & space complexity
         ↓
 Record mistakes
 ```
 
 ---
 
-## Getting Stuck Rule
+# Getting-Stuck Rule
 
-I do not immediately open the editorial.
-
-### First 15 minutes
+## First 15 Minutes
 
 * Understand examples
 * Inspect constraints
 * Think of brute force
 * Write observations
+* Try small test cases manually
 
-### Around 30 minutes
+## Around 30 Minutes
 
 If completely stuck:
 
-* take a **small hint**
+* Take a small hint
+* Do not immediately read the complete solution
 
-### Around 45–60 minutes
+## Around 45–60 Minutes
 
-If the problem is near my level and I still cannot derive the approach:
+If the problem is near my current level and I still cannot derive the solution:
 
-* study the core idea
-* close the editorial
-* implement independently
-
-Then the problem enters my **revision queue**.
+* Study the core observation
+* Close the editorial
+* Implement the solution independently
+* Add the problem to the revision queue
 
 ---
 
-## Revision System
+# Revision System
 
-Problems where I required major help are revisited approximately:
+Problems where I required an important hint or editorial are revisited approximately:
 
 ```text
-Day 1
-  ↓
-Day 3
-  ↓
-Day 7
-  ↓
-Day 30
+Initial Solve
+     ↓
+After 3 Days
+     ↓
+After 7 Days
+     ↓
+After 30 Days
 ```
 
-The objective is not remembering the code.
+The objective is not to remember the code.
 
-The objective is being able to **reconstruct the idea independently**.
+The objective is to **reconstruct the idea independently**.
 
 ---
 
-## What I Track
+# Mistake Categories
 
-I care more about these metrics than raw problem count:
+| Code  | Meaning                    |
+| ----- | -------------------------- |
+| PR    | Pattern Recognition        |
+| OBS   | Wrong / Missed Observation |
+| EDGE  | Edge Case                  |
+| IMP   | Implementation Bug         |
+| CMP   | Complexity Mistake         |
+| MATH  | Mathematical Mistake       |
+| DS    | Wrong Data Structure       |
+| PANIC | Contest / Time Management  |
+
+---
+
+# What I Track
+
+I care more about improvement than raw problem count.
+
+Important metrics:
 
 * Problems solved independently
 * Time taken to find the approach
+* Problems solved without hints
 * Contest performance
 * Problems successfully upsolved
-* Previously missed problems solved again independently
-* Patterns recognized without hints
+* Previously missed problems solved independently later
+* Patterns recognized correctly
 * Implementation mistakes
 * Complexity-analysis accuracy
 * Progress in problem difficulty
 
 ---
 
-## Mistake Categories
+# Current Learnings
 
-```text
-PR     → Pattern Recognition
-OBS    → Wrong / Missed Observation
-EDGE   → Edge Case
-IMP    → Implementation Bug
-CMP    → Complexity Mistake
-MATH   → Mathematical Mistake
-DS     → Wrong Data Structure
-PANIC  → Contest / Time Management
-```
+## Day 01
 
-Mistakes are part of this repository because understanding **why a solution failed** is often more useful than collecting another Accepted submission.
+### Beautiful Matrix
+
+* 2D matrix traversal
+* Finding an element efficiently
+* Row and column distance
+* `abs()` usage
+* Breaking nested search after finding the answer
+
+### Theatre Square
+
+* Converting a problem statement into mathematics
+* Ceiling division
+* Avoiding unnecessary simulation
 
 ---
 
-## Long-Term Goal
+## Day 02
+
+### Helpful Maths
+
+* Frequency counting
+* Sorting-like behavior without necessarily using comparison sorting
+* Understanding that consecutive loops can still combine to `O(n)`
+
+### Queue at the School
+
+* Simulation
+* Careful state updates
+* Correct pointer/index movement
+* Understanding why `i += 2` is necessary after swapping `BG → GB`
+* Deriving `O(t × n)` simulation complexity
+
+---
+
+# Long-Term Goal
 
 This 24-week roadmap is only the **foundation**.
 
 My long-term goal is to become exceptionally strong at:
 
-* competitive programming
-* algorithms
-* mathematical thinking
-* problem solving
-* software engineering interviews
+* Competitive Programming
+* Data Structures & Algorithms
+* Mathematical Thinking
+* Problem Solving
+* Software Engineering Interviews
 
-I know that reaching a very high level in competitive programming requires **years of deliberate practice**.
+I understand that reaching a very high level in competitive programming requires **years of deliberate practice**.
 
-So I am not trying to rush.
+Therefore, I am not trying to rush.
 
 I am focusing on:
 
