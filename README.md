@@ -173,6 +173,10 @@ dsa-cp-practice/
 │   │   ├── queue_at_the_school.py
 │   │   └── README.md
 │   │
+│   ├── day-03/
+│   │   ├── dubstep.py
+│   │   ├── amusing_joke.py
+│   │   └── README.md
 │   └── ...
 │
 ├── week-02/
@@ -191,12 +195,13 @@ dsa-cp-practice/
 **Current Week:** Week 01
 **Current Focus:** Implementation, Sorting & Complexity
 
-**Problems Completed:** 4
+**Problems Completed:** 6
 
-| Day    | Problems                           | Status |
-| ------ | ---------------------------------- | ------ |
-| Day 01 | Beautiful Matrix, Theatre Square   | ✅      |
-| Day 02 | Helpful Maths, Queue at the School | ✅      |
+| Day | Problems | Status |
+|---|---|---|
+| Day 01 | Beautiful Matrix, Theatre Square | ✅ |
+| Day 02 | Helpful Maths, Queue at the School | ✅ |
+| Day 03 | Dubstep, Amusing Joke | ✅ |
 
 ---
 
@@ -380,6 +385,22 @@ Important metrics:
 * Deriving `O(t × n)` simulation complexity
 
 ---
+
+## Day 03
+
+### Dubstep
+
+- String splitting using a custom separator
+- Handling empty strings produced by `split()`
+- Efficient string construction using `join()`
+- Understanding why repeated string concatenation can be inefficient
+
+### Amusing Joke
+
+- Character frequency counting using `defaultdict`
+- Exact frequency matching
+- Understanding fixed-alphabet space complexity
+- Recognizing that all final frequencies must become exactly `0`
 
 # Long-Term Goal
 
